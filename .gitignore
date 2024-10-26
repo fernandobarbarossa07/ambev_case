@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Diretórios temporários
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Airflow
+airflow.cfg
+unittests.cfg
+webserver_config.py
+logs/
+*.log
+
+# SQLite Database
+airflow.db
+airflow.db-shm
+airflow.db-wal
+
+# Docker
+docker-compose*.yml
+.dockerignore
+*.env
+.envrc
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Configurações de sistema/IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Credenciais e chaves
+secrets/
+*.pem
+*.key
+
+# Diretórios de build/depuração temporários
+build/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Caches de pacotes
+*.egg-info/
+pip-wheel-metadata/
+__pycache__/
+*.pyc
+.tox/
+.env/
+
+# Outros
+.DS_Store
+Thumbs.db
+test.ipynb
